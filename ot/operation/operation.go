@@ -3,9 +3,8 @@ package operation
 import (
 	"errors"
 	"fmt"
+	"ot/ot"
 	"unicode/utf16"
-
-	"github.com/nitrous-io/ot.go/ot"
 )
 
 var (

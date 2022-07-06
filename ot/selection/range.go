@@ -1,6 +1,6 @@
 package selection
 
-import "github.com/nitrous-io/ot.go/ot/operation"
+import "ot/ot/operation"
 
 type Range struct {
 	Anchor int `json:"anchor"`

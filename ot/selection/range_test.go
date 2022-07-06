@@ -1,12 +1,11 @@
 package selection_test
 
 import (
+	"ot/ot"
+	"ot/ot/operation"
+	"ot/ot/selection"
 	"reflect"
 	"testing"
-
-	"github.com/nitrous-io/ot.go/ot"
-	"github.com/nitrous-io/ot.go/ot/operation"
-	"github.com/nitrous-io/ot.go/ot/selection"
 )
 
 func TestRangeTransform(t *testing.T) {

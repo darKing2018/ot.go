@@ -1,12 +1,11 @@
 package session_test
 
 import (
+	"ot/ot/operation"
+	"ot/ot/selection"
+	"ot/ot/session"
 	"reflect"
 	"testing"
-
-	"github.com/nitrous-io/ot.go/ot/operation"
-	"github.com/nitrous-io/ot.go/ot/selection"
-	"github.com/nitrous-io/ot.go/ot/session"
 )
 
 func TestNew(t *testing.T) {

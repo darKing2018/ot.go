@@ -2,9 +2,8 @@ package session
 
 import (
 	"errors"
-
-	"github.com/nitrous-io/ot.go/ot/operation"
-	"github.com/nitrous-io/ot.go/ot/selection"
+	"ot/ot/operation"
+	"ot/ot/selection"
 )
 
 var (

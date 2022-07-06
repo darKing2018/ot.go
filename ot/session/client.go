@@ -1,6 +1,6 @@
 package session
 
-import "github.com/nitrous-io/ot.go/ot/selection"
+import "ot/ot/selection"
 
 type Client struct {
 	Name      string              `json:"name"`

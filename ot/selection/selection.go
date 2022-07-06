@@ -2,8 +2,7 @@ package selection
 
 import (
 	"errors"
-
-	"github.com/nitrous-io/ot.go/ot/operation"
+	"ot/ot/operation"
 )
 
 var (

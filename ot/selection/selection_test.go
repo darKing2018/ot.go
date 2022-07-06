@@ -2,11 +2,10 @@ package selection_test
 
 import (
 	"encoding/json"
+	"ot/ot/operation"
+	"ot/ot/selection"
 	"reflect"
 	"testing"
-
-	"github.com/nitrous-io/ot.go/ot/operation"
-	"github.com/nitrous-io/ot.go/ot/selection"
 )
 
 func TestSelectionTransform(t *testing.T) {

@@ -2,11 +2,10 @@ package operation_test
 
 import (
 	"encoding/json"
+	"ot/ot"
+	"ot/ot/operation"
 	"reflect"
 	"testing"
-
-	"github.com/nitrous-io/ot.go/ot"
-	"github.com/nitrous-io/ot.go/ot/operation"
 )
 
 func TestNew(t *testing.T) {
