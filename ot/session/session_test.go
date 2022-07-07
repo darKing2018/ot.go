@@ -106,15 +106,15 @@ func TestSetSelection(t *testing.T) {
 	s.SetSelection("bar", sel)
 
 	if actual := s.Clients["foo"].Selection; reflect.DeepEqual(&actual, sel) {
-		t.Errorf("expected foo's selection not to equal %+v, got %+s", sel, &actual)
+		t.Errorf("expected foo's selection not to equal %+v, got %p", sel, &actual)
 	}
 
 	if actual := s.Clients["bar"].Selection; !reflect.DeepEqual(&actual, sel) {
-		t.Errorf("expected bar's selection to equal %+v, got %+s", sel, &actual)
+		t.Errorf("expected bar's selection to equal %+v, got %p", sel, &actual)
 	}
 
 	if actual := s.Clients["baz"].Selection; reflect.DeepEqual(&actual, sel) {
-		t.Errorf("expected baz's selection not to equal %+v, got %+s", sel, &actual)
+		t.Errorf("expected baz's selection not to equal %+v, got %p", sel, &actual)
 	}
 
 	// setting non-existent client's name shouldn't blow up
